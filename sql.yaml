@@ -1,0 +1,7 @@
+- name: installing sql mine
+  hosts: local
+  connection: local
+  tasks:
+  - name: installing
+    ansible.builtin.debug:
+      msg: "india allss"
