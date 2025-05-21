@@ -1,7 +1,8 @@
-- name: install demisjsjjsfff
-  hosts: local
-  connection: local
+- name: installing mysql
+  hosts: web
+  become: yes
   tasks:
-  - name: instll print
-    ansible.builtin.debug:
-      msg: "hello Giri"
+  - name: installing mysql
+    ansible.builtin.package:
+      name: mysql-server
+      state: present
