@@ -8,6 +8,7 @@
       executable: pip3.9
 
   - name: installing mysql
+  ansible.builtin.package:
       name: mysql-server
       state: present
 
