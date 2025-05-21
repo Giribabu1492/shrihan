@@ -7,7 +7,6 @@
       name: PyMySQL
       executable: pip3.9
 
-      
   - name: installing mysql
       name: mysql-server
       state: present
