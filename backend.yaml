@@ -60,5 +60,5 @@
       name: all
       login_user: root
       login_password: ExpenseApp@1
-      login_host:  mysql-giri.shrihan.fun 
+      login_host: mysql-giri.shrihan.fun 
       target: /app/schema/backend.sql     
