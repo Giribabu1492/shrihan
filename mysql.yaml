@@ -1,0 +1,7 @@
+- name: install
+  hosts: local
+  connection: local
+  tasks:
+  - name: instll print
+    ansible.builtin.debug:
+      msg: "hello Giri"
