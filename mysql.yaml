@@ -1,4 +1,4 @@
-- name: install dem
+- name: install demisjsjjs
   hosts: local
   connection: local
   tasks:
