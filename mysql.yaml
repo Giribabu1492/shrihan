@@ -8,11 +8,11 @@
       executable: pip3.9
 
   - name: installing mysql
-  ansible.builtin.package:
+    ansible.builtin.package:
       name: mysql-server
       state: installed
 
-  - name: start and enable mysql service
+  - name: start and enable mysql server
     ansible.builtin.service:
       name: mysqld
       state: started
