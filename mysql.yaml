@@ -24,6 +24,8 @@
       login_password: ExpenseApp@1    
       login_host: mysql-giri.shrihan.fun
     register: mysql_info
+    ignore_errors: true
+
 
   - name: print the output
     ansible.builtin.debug:
