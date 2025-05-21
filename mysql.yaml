@@ -1,4 +1,4 @@
-- name: install
+- name: install dem
   hosts: local
   connection: local
   tasks:
